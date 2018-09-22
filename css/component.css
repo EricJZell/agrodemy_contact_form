@@ -96,7 +96,7 @@
 
 /* Visibility control of elements */
 .fs-form-full .fs-fields > li,
-.fs-nav-dots, 
+.fs-nav-dots,
 .fs-progress,
 .fs-numbers,
 button.fs-continue,
@@ -396,22 +396,6 @@ button.fs-continue,
 
 .fs-form-overview .fs-fields textarea:focus {
 	background: #fffed8;
-}
-
-.fs-form div.cs-select.cs-skin-boxes {
-	display: block;
-}
-
-.fs-form-overview .cs-skin-boxes > span {
-	border-radius: 5px;
-	width: 90px;
-	height: 70px;
-	font-size: 0.8em;
-}
-
-.fs-form-overview .cs-skin-boxes > span::before {
-	padding-top: 50px;
-	box-shadow: 0 20px 0 #292c30, inset 0 -5px #292c30;
 }
 
 .fs-fields input.fs-mark {
