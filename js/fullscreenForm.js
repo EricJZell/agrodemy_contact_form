@@ -12,6 +12,7 @@
 
 	'use strict';
 
+	//comment this section out to actually send emails:
 	var form = document.getElementById("myform");
 	form.addEventListener("submit", function(e) {
 		e.preventDefault();
