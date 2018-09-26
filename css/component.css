@@ -52,14 +52,14 @@
 	width: 100%;
 	height: 100%;
 	background: #fffed8;
-	color: #3b3f45;
+	color: #25252a;
 	font-size: 1.2em;
 }
 
 .fs-form-overview .fs-fields::before {
 	display: block;
 	margin-bottom: 2.5em;
-	color: #3b3f45;
+	color: #25252a;
 	content: 'Review & Submit';
 	font-weight: 700;
 	font-size: 1.85em;
@@ -242,7 +242,7 @@ button.fs-continue,
 	padding: 0 0 0.15em;
 	width: 100%;
 	border: none;
-	border-bottom: 2px solid rgba(0,0,0,0.2);
+	border-bottom: 2px solid rgba(0,0,0,0.4);
 	background-color: transparent;
 	color: #fffed8;
 	text-overflow: ellipsis;
@@ -268,7 +268,7 @@ button.fs-continue,
 }
 
 .fs-fields input:focus {
-	background-color: #3b3f45; /* Fixes chrome bug with placeholder */
+	background-color: #25252a; /* Fixes chrome bug with placeholder */
 }
 
 .fs-form-overview .fs-fields input:focus {
@@ -342,16 +342,16 @@ button.fs-continue,
 	transform: translate(-50%,-50%);
 }
 
-.fs-fields .fs-radio-custom label.radio-mobile::after {
-	background-image: url(../img/mobile.svg);
+.fs-fields .fs-radio-custom label.radio-marketing::after {
+	background-image: url(../img/marketing_icon.png);
 }
 
-.fs-fields .fs-radio-custom label.radio-social::after {
-	background-image: url(../img/social.svg);
+.fs-fields .fs-radio-custom label.radio-software-dev::after {
+	background-image: url(../img/software_dev_icon.png);
 }
 
-.fs-fields .fs-radio-custom label.radio-conversion::after {
-	background-image: url(../img/conversion.svg);
+.fs-fields .fs-radio-custom label.radio-web-dev::after {
+	background-image: url(../img/web_dev_icon_V3.png);
 }
 
 .fs-fields .fs-radio-custom label:hover::after,
