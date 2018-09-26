@@ -51,15 +51,15 @@
 	padding: 2.5em 30% 6em;
 	width: 100%;
 	height: 100%;
-	background: #fffed8;
-	color: #25252a;
+	background: #15909f;
+	color: #fff;
 	font-size: 1.2em;
 }
 
 .fs-form-overview .fs-fields::before {
 	display: block;
 	margin-bottom: 2.5em;
-	color: #25252a;
+	color: #fff;
 	content: 'Review & Submit';
 	font-weight: 700;
 	font-size: 1.85em;
@@ -144,7 +144,7 @@ button.fs-continue,
 }
 
 .fs-form-overview ol {
-	max-width: ;
+	color: #fff;
 }
 
 .fs-fields > li {
@@ -168,7 +168,7 @@ button.fs-continue,
 .no-js .fs-form .fs-fields > li {
 	margin: 1em 0 2em;
 	padding: 0 0 2em 0;
-	border-bottom: 2px solid rgba(0,0,0,0.1);
+	border-bottom: 2px solid rgba(0,0,0,0.3);
 }
 
 /* Labels & info */
@@ -189,8 +189,8 @@ button.fs-continue,
 	margin-left: 10px;
 	width: 24px;
 	height: 24px;
-	border: 2px solid rgba(0,0,0,0.4);
-	color: rgba(0,0,0,0.4);
+	border: 2px solid rgba(0,0,0,0.6);
+	color: rgba(0,0,0,0.6);
 	border-radius: 50%;
 	content: 'i';
 	vertical-align: top;
@@ -244,7 +244,7 @@ button.fs-continue,
 	border: none;
 	border-bottom: 2px solid rgba(0,0,0,0.4);
 	background-color: transparent;
-	color: #fffed8;
+	color: rgba(255,255,255,1);
 	text-overflow: ellipsis;
 	font-weight: bold;
 	font-size: 1.5em;
@@ -257,7 +257,7 @@ button.fs-continue,
 
 .fs-form-overview .fs-fields input {
 	border-bottom-color: transparent;
-	color: rgba(0,0,0,0.5);
+	color: rgba(255,255,255,0.7);
 }
 
 .fs-fields [required] {
@@ -272,7 +272,7 @@ button.fs-continue,
 }
 
 .fs-form-overview .fs-fields input:focus {
-	background-color: #fffed8; /* Fixes chrome bug with placeholder */
+	background-color: #15909f; /* Fixes chrome bug with placeholder */
 }
 
 .fs-form-overview .fs-fields input {
@@ -304,7 +304,7 @@ button.fs-continue,
 }
 
 .fs-fields > li .fs-radio-custom span label {
-	color: rgba(0,0,0,0.4);
+	color: rgba(255,255,255,.4);
 	-webkit-transition: color 0.3s;
 	transition: color 0.3s;
 }
@@ -361,20 +361,21 @@ button.fs-continue,
 }
 
 .fs-fields .fs-radio-custom input[type="radio"]:checked + label {
-	color: #fffed8;
+	color: #15909f;
 }
 
+
 .fs-form-overview .fs-fields .fs-radio-custom input[type="radio"]:checked + label {
-	color: rgba(0,0,0,0.8);
+	color: rgba(255,255,255,1);
 }
 
 .fs-fields textarea {
 	padding: 0.25em;
 	width: 100%;
 	height: 200px;
-	border: 2px solid rgba(0,0,0,0.2);
+	border: 2px solid rgba(0,0,0,0.4);
 	background-color: transparent;
-	color: #fffed8;
+	color: rgba(255,255,255,1);
 	font-weight: 700;
 	font-size: 0.85em;
 	resize: none;
@@ -382,7 +383,7 @@ button.fs-continue,
 
 .fs-form-overview .fs-fields textarea {
 	height: 100px;
-	color: rgba(0,0,0,0.5);
+	color: rgba(255,255,255,0.7);
 }
 
 .fs-fields textarea:focus {
@@ -395,28 +396,28 @@ button.fs-continue,
 }
 
 .fs-form-overview .fs-fields textarea:focus {
-	background: #fffed8;
+	background: #15909f;
 }
 
 /* placeholder */
 .fs-fields input::-webkit-input-placeholder,
 .fs-fields textarea::-webkit-input-placeholder {
-	color: rgba(0,0,0,0.1);
+	color: rgba(0,0,0,0.3);
 }
 
 .fs-fields input:-moz-placeholder,
 .fs-fields textarea:-moz-placeholder {
-	color: rgba(0,0,0,0.1);
+	color: rgba(0,0,0,0.3);
 }
 
 .fs-fields input::-moz-placeholder,
 .fs-fields textarea::-moz-placeholder {
-	color: rgba(0,0,0,0.1);
+	color: rgba(0,0,0,0.3);
 }
 
 .fs-fields input:-ms-input-placeholder,
 .fs-fields textarea:-ms-input-placeholder {
-	color: rgba(0,0,0,0.1);
+	color: rgba(0,0,0,0.3);
 }
 
 /* Hide placeholder when focused in Webkit browsers */
@@ -455,7 +456,7 @@ button.fs-continue,
 	width: 100%;
 	height: 100%;
 	border-radius: 50%;
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.7);
 	content: '';
 	text-indent: 0;
 	-webkit-backface-visibility: hidden;
@@ -463,7 +464,7 @@ button.fs-continue,
 }
 
 .fs-nav-dots button::after {
-	background-color: rgba(0,0,0,0.4);
+	background-color: rgba(0,0,0,0.6);
 	-webkit-transform: perspective(1000px) rotate3d(0,1,0,180deg);
 	transform: perspective(1000px) rotate3d(0,1,0,180deg);
 }
@@ -475,7 +476,7 @@ button.fs-continue,
 
 .fs-nav-dots button:hover::before,
 .fs-nav-dots button.fs-dot-current::before {
-	background: #fffed8;
+	background: #15909f;
 }
 
 /* Progress bar */
@@ -484,7 +485,7 @@ button.fs-continue,
 	top: 0;
 	width: 0%;
 	height: 0.5em;
-	background: #fffed8;
+	background: #15909f;
 	-webkit-transition: width 0.3s ease-in-out;
 	transition: width 0.3s ease-in-out;
 }
@@ -495,7 +496,7 @@ button.fs-continue,
 	top: 0;
 	right: 0;
 	overflow: hidden;
-	color: rgba(0,0,0,0.4);
+	color: rgba(0,0,0,0.6);
 	margin: 40px;
 	width: 2em;
 	font-weight: 700;
@@ -597,7 +598,7 @@ button.fs-continue {
 	border: 3px solid #232529;
 	border-radius: 40px;
 	font-weight: 700;
-	color: rgba(0,0,0,0.4);
+	color: rgba(255,255,255,1);
 }
 
 .fs-form-overview .fs-submit,
@@ -634,7 +635,7 @@ button.fs-continue:hover {
 	line-height: 3;
 	text-align: center;
 	background: transparent;
-	color: rgba(0,0,0,0.3);
+	color: rgba(0,0,0,0.7);
 	content: 'or press ENTER';
 	font-size: 0.65em;
 	pointer-events: none;
