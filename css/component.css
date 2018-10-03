@@ -309,6 +309,10 @@ button.fs-continue,
 	transition: color 0.3s;
 }
 
+.fs-fields > li .fs-radio-custom span label:hover {
+	color: rgba(255,255,255,1);
+}
+
 .fs-form-overview .fs-fields > li .fs-radio-custom span {
 	max-width: 140px;
 }
@@ -351,7 +355,7 @@ button.fs-continue,
 }
 
 .fs-fields .fs-radio-custom label.radio-web-dev::after {
-	background-image: url(../img/web_dev_icon_V3.png);
+	background-image: url(../img/web_dev_icon.png);
 }
 
 .fs-fields .fs-radio-custom label:hover::after,
@@ -823,7 +827,9 @@ input[type=text]::-ms-clear {
 		left: 0;
 		width: 100%;
 		height: 100%;
-		content: '\27A1';
+		content: "";
+		background-image: url("../img/arrow.png");
+		background-size: cover;
 		text-align: center;
 		font-size: 1em;
 		line-height: 50px;

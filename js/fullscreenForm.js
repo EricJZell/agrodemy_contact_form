@@ -13,11 +13,11 @@
 	'use strict';
 
 	//comment this section out to actually send emails:
-	var form = document.getElementById("myform");
-	form.addEventListener("submit", function(e) {
-		e.preventDefault();
-		window.open("https://www.agrodemy.io/thanks","_self")
-	});
+	// var form = document.getElementById("myform");
+	// form.addEventListener("submit", function(e) {
+	// 	e.preventDefault();
+	// 	window.open("https://www.agrodemy.io/thanks","_self")
+	// });
 
 
 
