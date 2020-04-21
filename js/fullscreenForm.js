@@ -16,7 +16,7 @@
 	// var form = document.getElementById("myform");
 	// form.addEventListener("submit", function(e) {
 	// 	e.preventDefault();
-	// 	window.open("https://www.agrodemy.io/thanks","_self")
+	// 	window.open("https://www.agrodemy.org","_self")
 	// });
 
 
